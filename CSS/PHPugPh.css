@@ -1,0 +1,95 @@
+*{
+	outline: none;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.navbar-brand-img{
+	display: none;
+	margin-top: 5px;
+	height: 30px;
+	width: 150px;
+}
+.top-tab li{
+	margin: 20px 5px;
+	padding: 0;
+}
+.top-tab li a{ /*navbar buttons*/
+	color: #fff !important;
+	font-size: 15px;
+	padding: 5px 15px;
+	text-shadow: 0 0 10px #000;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+.top-tab{
+	margin-right: 100px;
+}
+.header-container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 0;
+	height: 130vh;
+    background: transparent;
+}
+.header-text-container{
+	z-index: 999;
+	color: #fff;
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 150px;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.header-text-container label { /*Tag*/
+	font-size: 45px;
+	font-family: 'Open Sans' , sans-serif;
+	margin-top: 20px;
+}
+.logoUser{
+	width: 80%;
+	height: 20%;
+}
+ul li button{ /*Events*/
+	padding: 10px 20px;
+	border: solid 3px #fff;
+	font-size: 25px;
+	background-color: transparent;
+	margin: 50px 10px;
+	text-shadow: 0 0 10px #000;
+	transition: all 300ms;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: white;
+}
+ul li button:hover{
+	transition: all 300ms;
+	color: #222;
+	text-shadow: 0 0 10px #3F6AAB;
+	box-shadow: 0 0 10px #3F6AAB;
+	border-color: #222;
+}
+.phpbanner{
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	margin-top: 492px;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color: transparent;
+	border-bottom: solid 1px #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+	background-color: transparent;
+}
